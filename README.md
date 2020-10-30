@@ -9,7 +9,7 @@ This project features a REST API to distinguish simians from humans analyzing th
 CREATE DATABASE dna_analyzer;
 ```
 
--After importing the project, change the <b>application.properties</b> file to connect to your MySQL database. Example:
+-Change the <b>application.properties</b> file to connect to your MySQL database. Example:
 
 ![applicationPropExample](https://user-images.githubusercontent.com/13589045/97759159-37bb8f00-1adf-11eb-8fed-8eef5cc4de4f.png)
 
