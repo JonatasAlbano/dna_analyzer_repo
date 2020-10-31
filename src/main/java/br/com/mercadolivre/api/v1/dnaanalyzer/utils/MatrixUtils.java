@@ -53,7 +53,7 @@ public class MatrixUtils {
 					return true;
 			}
 			
-			//diagonal right verification
+			//right down diagonal verification
 			if((arraySize - auxLine) >= 4 && (arraySize - auxColumn) >= 4) {
 				int auxColumnForDiagonal = auxColumn;
 				for(int auxIndex = auxLine + 1; auxIndex < arraySize; auxIndex++) {
@@ -72,7 +72,7 @@ public class MatrixUtils {
 					return true;
 			}
 			
-			//diagonal left verification
+			//left down diagonal verification
 			if(auxLine >= 3 && (arraySize - auxColumn) >= 4) {
 				int auxColumnForDiagonal = auxColumn;
 				for(int auxIndex = auxLine - 1; auxIndex >= 0; auxIndex--) {
@@ -90,7 +90,7 @@ public class MatrixUtils {
 					return true;
 			}
 			
-			//go to next column
+			//go to the next column
 			if(auxColumn + 1 < arraySize && (auxLine + 1) == arraySize) {
 				auxColumn++;
 				auxLine = -1;
